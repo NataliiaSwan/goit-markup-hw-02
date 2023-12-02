@@ -1,0 +1,142 @@
+body {
+    font-family:"Roboto", "Poppins", "Oswald", sans-serif;
+    color:#2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+/*header*/
+header {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.header-logo {
+    color: #2E2F42;
+}
+.header-logo,
+.footer-logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-accent {
+    color: #4D5AE5;
+}
+.header-list {
+    font-weight: 500;
+    list-style-type: none;
+
+}
+.header-link-itam {
+    color: #2E2F42;
+}
+.address-link-itam {
+    color :#434455;
+}
+.header-link-itam:hover,
+.header-link-itam:focus,
+.address-link-itam:hover,
+.address-link-itam:focus {
+    color: #404BBF;
+ 
+}
+.address-list {
+    list-style-type: none;
+}
+
+/*hero-section*/
+.main-section {
+    background-color: #2E2F42;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    
+}
+.button {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+     background: #404BBF;
+}
+/*section future*/
+.section-feature {
+    background: #FFF;
+}
+
+.section-feature-list {
+    list-style-type: none;
+}
+h3 {font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*section team*/
+
+.section-team {
+    background: #F4F4FD;
+}
+.section-team-list {
+    list-style-type: none;
+}
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.section-team-img {
+    background: url(<path-to-image>), lightgray -97.034px -0.927px no-repeat;
+    width: 264px;
+    height: 260px;
+}
+
+/*section portfolio*/
+.section-portfolio-list {
+    list-style-type: none;
+}
+.section-portfolio-img {
+    background: url(<path-to-image>), lightgray -25.026px 0px no-repeat;
+    width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+}
+/*footer*/
+.footer {
+    background: #2E2F42;
+}
+.footer-logo,
+.footer-page {
+    color: #F4F4FD;
+}
+
+
+
+
+
+
