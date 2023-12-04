@@ -73,10 +73,6 @@ header {
     font-weight: 500;
     letter-spacing: 0.04em;
     background: #4D5AE5;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
     cursor: pointer;
     
 }
@@ -122,19 +118,16 @@ header {
 }
 .section-team-img {
     background: url(<path-to-image>), lightgray -97.034px -0.927px no-repeat;
-    width: 264px;
-    height: 260px;
 }
 
 /*section portfolio*/
+
 .section-portfolio-list {
     list-style-type: none;
     background: #FFF;
 }
 .section-portfolio-img {
     background: url(<path-to-image>), lightgray -25.026px 0px no-repeat;
-    width: 360px;
-    height: 300px;
     flex-shrink: 0;
 }
 /*footer*/
