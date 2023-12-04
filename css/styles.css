@@ -4,27 +4,27 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-
+    line-height: 1.5em;
 }
 /*header*/
+
 header {
     letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-.header-logo {
-    color: #2E2F42;
-}
+    }
+
 .header-logo,
 .footer-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.logo-accent {
     color: #4D5AE5;
+
+}
+.header-logo-accent {
+    color: #2E2F42
 }
 .header-list {
     font-weight: 500;
@@ -34,6 +34,9 @@ header {
 .header-link-itam {
     color: #2E2F42;
 }
+.header-address {
+    font-style: normal;
+}
 .address-link-itam {
     color :#434455;
 }
@@ -42,17 +45,17 @@ header {
 .address-link-itam:hover,
 .address-link-itam:focus {
     color: #404BBF;
- 
-}
+ }
 .address-list {
     list-style-type: none;
 }
 
 /*hero-section*/
-.main-section {
+
+.hero-section {
     background-color: #2E2F42;
 }
-h1 {
+.hero-title {
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -63,18 +66,24 @@ h1 {
     
 }
 .button {
-    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
     cursor: pointer;
+    
 }
 .button:hover,
 .button:focus {
-     background: #404BBF;
+    background: #404BBF;
+   
 }
 /*section future*/
 .section-feature {
@@ -84,13 +93,14 @@ h1 {
 .section-feature-list {
     list-style-type: none;
 }
-h3 {font-size: 20px;
+.title-page {font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-p {
-    line-height: 1.5;
+.page-section {
+    color: #434455;
+    font-size: 16px;
     letter-spacing: 0.02em;
 }
 /*section team*/
@@ -101,7 +111,7 @@ p {
 .section-team-list {
     list-style-type: none;
 }
-h2 {
+.sections-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -119,6 +129,7 @@ h2 {
 /*section portfolio*/
 .section-portfolio-list {
     list-style-type: none;
+    background: #FFF;
 }
 .section-portfolio-img {
     background: url(<path-to-image>), lightgray -25.026px 0px no-repeat;
@@ -130,10 +141,11 @@ h2 {
 .footer {
     background: #2E2F42;
 }
-.footer-logo,
+.footer-logo-accent,
 .footer-page {
-    color: #F4F4FD;
-}
+     color: #F4F4FD;
+ } 
+
 
 
 
