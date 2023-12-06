@@ -50,6 +50,9 @@ header {
 .address-list {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 
 /*hero-section*/
 
